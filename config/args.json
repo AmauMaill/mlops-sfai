@@ -1,0 +1,5 @@
+{
+    "features": ["year", "beds", "baths", "sqft", "room_in_apt", "descr", "details"],
+    "target": ["price"],
+    "transform": ["descr", "details"]
+}

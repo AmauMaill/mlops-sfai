@@ -1,0 +1,18 @@
+# mkdocs.yml
+site_name: GitHub
+site_url: https://github.com
+repo_url: https://github.com
+nav:
+  - Home: index.md
+  - workflows:
+    - main: sfai/main.md
+  - sfai:
+    - data: sfai/data.md
+    - predict: sfai/predict.md
+    - train: sfai/train.md
+    - utils: sfai/utils.md
+theme: readthedocs
+plugins:
+  - mkdocstrings
+watch:
+  - .  # reload docs for any file changes
